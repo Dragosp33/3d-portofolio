@@ -57,7 +57,7 @@ const ProjectModal = ({ project, onClose }) => {
             className='modal-content'
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Your modal content goes here 
+            {/* modal content goes here 
             <h2>{project.name}</h2>
             <p>{project.description}</p>
             <button onClick={onClose}>Close</button>*/}

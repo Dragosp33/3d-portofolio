@@ -319,7 +319,7 @@ const projects = [
       },
     ],
     image: portofolio_ss,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Dragosp33/3d-portofolio',
     app_link: '#',
     modal_description: 'A modern web app with 3D models and responsive design.',
     brief: 'Web Platform to showcase protofolio',
