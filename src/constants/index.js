@@ -13,19 +13,12 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  nextjs,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   secondpresentation,
   zapp,
-  bikes,
+  auth_cover,
   bikes_cover,
   helsinki,
   fmi,
@@ -101,6 +94,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: 'nextjs',
+    icon: nextjs,
+  },
+  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
@@ -124,10 +121,7 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
+
   {
     name: 'docker',
     icon: docker,
@@ -203,33 +197,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
-];
-
 const certificates = [
   {
     name: 'University of Helsinki FullStack Course',
@@ -301,9 +268,9 @@ const certificates = [
 
 const projects = [
   {
-    name: 'Portofolio',
+    name: 'Portfolio',
     description:
-      'React-based web portofolio with responsive design and innovative technologies and models providing an opportunity to showcase my skills.',
+      'React-based web portfolio with responsive design and innovative technologies and models providing an opportunity to showcase my skills.',
     tags: [
       {
         name: 'react',
@@ -322,7 +289,7 @@ const projects = [
     source_code_link: 'https://github.com/Dragosp33/3d-portofolio',
     app_link: '#',
     modal_description: 'A modern web app with 3D models and responsive design.',
-    brief: 'Web Platform to showcase protofolio',
+    brief: 'Web Platform to showcase protfolio',
     features: [
       'Responsive Design',
       'Light/Dark Mode responsive colors',
@@ -331,6 +298,46 @@ const projects = [
     tech_used: '',
     implementation: '',
   },
+
+  // enhanced auth
+  {
+    name: 'Enhanced Auth',
+    description:
+      'Enhanced authentication with Next.js and MongoDB. Extending the Auth.js library with new features and implementations, providing a full service for authentication.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'next.js',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: auth_cover,
+    source_code_link: 'https://github.com/Dragosp33/enhanced-auth',
+    app_link: 'https://enhanced-auth.vercel.app/',
+    modal_description: 'Full authentication service',
+    brief: 'Auth service with full features',
+    features: [
+      'Light/Dark Mode responsive colors',
+      '2FA authentication',
+      'OTP codes through email',
+      'Socials',
+      'Automatic account linking',
+      'Manual account linking for multiple providers and different emails',
+      'Session updates',
+      'OTP handshake for changing emails',
+      'Extended users, accounts, sessions and tokens interfaces.',
+    ],
+    tech_used: '',
+    implementation: '',
+  },
+
   {
     name: 'Social App',
     description:
@@ -455,7 +462,6 @@ export {
   services,
   technologies,
   experiences,
-  testimonials,
   projects,
   personal_github,
   personal_linkedin,

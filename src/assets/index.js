@@ -9,7 +9,10 @@ import close from './close.svg';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+//import figma from './tech/figma.png';
+
+import nextjs from './tech/nextjs_logo.svg';
+
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -26,13 +29,12 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
 import secondpresentation from './second_presentation.png';
 import zapp from './zapp.png';
 import bikes from './LiveMap-cropped.png';
 import bikes_cover from './Cover Image.png';
+import auth_cover from './auth_ss_frontpage.png';
+
 import fmi from './fmi_bun.jpg';
 import helsinki from './University_of_Helsinki.svg';
 import freecode from './freecodecamp.png';
@@ -60,7 +62,7 @@ export {
   close,
   css,
   docker,
-  figma,
+  nextjs,
   git,
   html,
   javascript,
@@ -71,15 +73,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   secondpresentation,
   zapp,
+  auth_cover,
   bikes,
   bikes_cover,
   fmi,
